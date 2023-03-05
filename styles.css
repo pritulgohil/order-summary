@@ -1,0 +1,122 @@
+:root{
+    --pale-blue:hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    background: url("images/pattern-background-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    text-align:center;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card{
+    background-color: var(--very-pale-blue);
+    width:45vh;
+    border-radius: 20px;
+}
+
+.image{
+    background: url("images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+    text-align: center;
+    width:100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+h1{
+    font-size:1.5rem;
+}
+
+.details{
+    padding:10px 50px 10px 50px;
+    line-height: 1.5;
+    font-size: 1rem;
+    color:var(--desaturated-blue);
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cad1fa;
+    width:65%;
+    padding:0 15px 0 15px;
+    margin:0 auto 0 auto;
+    border-radius: 10px;
+}
+
+.box1{
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.light{
+    color:var(--desaturated-blue);
+    margin-top:-10px;
+}
+
+.small{
+    font-size:0.7rem;
+    text-decoration: underline;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    padding:20px 0 30px 0;
+}
+
+.button1{
+    width:72%;
+    background-color: var(--bright-blue);
+    border-style: none;
+    color:white;
+    padding:15px 0 15px 0;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    -webkit-box-shadow: 4px 17px 29px 0px rgba(26,17,120,0.5);
+    -moz-box-shadow: 4px 17px 29px 0px rgba(26,17,120,0.5);
+    box-shadow: 4px 17px 29px 0px rgba(26,17,120,0.5);
+    cursor: pointer;
+}
+
+.button2{
+    width:70%;
+    border-style: none;
+    color:black;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}

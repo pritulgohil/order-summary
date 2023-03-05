@@ -22,7 +22,7 @@ body{
 
 .card{
     background-color: var(--very-pale-blue);
-    width:45vh;
+    width:450px;
     border-radius: 20px;
 }
 
